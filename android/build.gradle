@@ -40,6 +40,9 @@ dependencies {
     // implementation(name: 'fijkplayer-full-release', ext: 'aar')
 
     // fijkplayer-full include the java lib and native shared libs for armv5 armv7 arm64 x86 x86_64
-    implementation 'com.befovy.fijkplayer:fijkplayer-full:0.7.6'
+//    implementation 'com.befovy.fijkplayer:fijkplayer-full:0.7.10'
+    implementation 'tv.danmaku.ijk.media:ijkplayer-java:0.8.8'
+    implementation 'tv.danmaku.ijk.media:ijkplayer-armv7a:0.8.8'
+    implementation 'tv.danmaku.ijk.media:ijkplayer-exo:0.8.8'
     implementation 'androidx.annotation:annotation:1.1.0'
 }
